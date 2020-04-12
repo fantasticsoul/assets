@@ -1,5 +1,5 @@
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/banner-rmc-compare.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/banner-rmc-compare.png)
 
 **[❤ star me if you like concent ^_^](https://github.com/concentjs/concent)**
 
@@ -16,7 +16,7 @@
     单一数据源，使用纯函数修改状态
 
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/1.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/1.png)
 
 ### mobx & mobx-react     
    * slogan：   
@@ -25,7 +25,7 @@
    * 设计理念   
     任何可以从应用程序状态派生的内容都应该派生
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/2.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/2.png)
 
 ### concent  
   * slogan：   
@@ -35,7 +35,7 @@
     相信融合不可变+依赖收集的开发方式是react的未来，增强react组件特性，写得更少，做得更多。
   
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/3.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/3.png)
   
 介绍完三者的背景，我们的舞台正式交给它们，开始一轮轮角逐，看谁到最后会是你最中意的范儿？
 
@@ -724,11 +724,11 @@ function UI(){
 
 非lazy调用流程
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/4.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/4.png)
 
 lazy调用流程
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/5.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/5.png)
 
 当然了，除了`reducer`，其他3种方式都可以任意搭配，且和`reducer`一样拥有同步状态到其他属于同一个模块且对某状态有依赖的实例上
 
@@ -802,7 +802,7 @@ class ClsUI extends React.Component{...}
 ```
 
 接入`concent-plugin-redux-devtool`后，可以看到任何动作修改Action里都会包含一个字段`ccUniqueKey`。
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/6.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/6.png)
 
 ### 回顾与总结
 这一个回合我们针对数据修改方式做了全面对比，从而让开发者了解到从`concent`的角度来说，为了开发者的编码体验做出的各方面巨大努力。
@@ -987,7 +987,7 @@ export const LoginFnSmall = React.memo(props => {
 
 `concent`的架构里是统一了类组件和函数组件的生命周期函数的，所以当某个状态被改变时，对此有依赖的生命周期函数会被触发，并支持类与函数共享此逻辑
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/7.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/7.png)
 
 ```js
 export const setupSm = ctx=>{
@@ -1164,37 +1164,37 @@ export default Counter;
 
 action 相关
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/8.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/8.png)
 
 reducer 相关
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/9.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/9.png)
   
 computed 相关
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/10.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/10.png)
 
 ### mobx-todo-mvc
 **[查看mobx-todo-mvc演示](https://codesandbox.io/s/todo-mvc-mbox-k42q1)**
 
 action 相关
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/11.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/11.png)
 
 computed 相关
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/12.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/12.png)
   
 ### concent-todo-mvc
 **[查看concent-todo-mvc演示](https://codesandbox.io/s/todoapp-react-concent-fvgvc)**
 
 reducer相关
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/13.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/13.png)
 
 computed相关
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/14.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/14.png)
   
   
  ## end
@@ -1308,12 +1308,12 @@ export default function App() {
  
 [❤ star me if you like concent ^_^](https://github.com/concentjs/concent)
 
-[Edit on CodeSandbox](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/15.png)
+[Edit on CodeSandbox](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/15.png)
 ![https://codesandbox.io/s/concent-guide-xvcej](https://user-gold-cdn.xitu.io/2019/11/17/16e79b2dee1e3c4d?w=302&h=62&f=png&s=9408)
 
-[Edit on StackBlitz](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/16.png)
+[Edit on StackBlitz](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/16.png)
 ![https://stackblitz.com/edit/cc-multi-ways-to-wirte-code](https://user-gold-cdn.xitu.io/2019/11/17/16e79b30771f4fd4?w=302&h=61&f=png&s=10028)
 
 如果有关于concent的疑问，可以扫码加群咨询，会尽力答疑解惑，帮助你了解更多。
 
-![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-compare/17.png)
+![](https://raw.githubusercontent.com/fantasticsoul/assets/master/article-img/rmc-comparison/17.png)
